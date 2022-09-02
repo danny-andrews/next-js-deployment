@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "test": "vitest"
   },
   "dependencies": {
     "next": "12.2.5",
@@ -14,7 +14,8 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5"
+    "@testing-library/react": "^13.3.0",
+    "happy-dom": "^6.0.4",
+    "vitest": "^0.22.1"
   }
 }
