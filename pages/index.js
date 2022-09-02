@@ -1,5 +1,5 @@
-import Counter from "../components/Counter.jsx";
+import Tasks from "../components/Tasks.jsx";
 
 export default function Home() {
-  return <Counter />;
+  return <Tasks />;
 }
